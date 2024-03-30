@@ -13,16 +13,15 @@ li {
     list-style: none;
 }
 
+.logos {
+    margin: 2em
+}
+
 p {
     text-align: left;
     color: #000000;
     padding: 2%;
 }
-
-p:hover {
-    text-shadow: 1px 1px 5px #ffffff;     
-}
-
 
 header {
     background: #3399f8;
@@ -50,7 +49,6 @@ header {
 }
 
 .pestania {
-    display: inline-block;
     box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     background-color: #3399f8;
@@ -59,15 +57,55 @@ header {
     color: #ffffff;
     transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
     cursor: pointer;
+    box-sizing: content-box;
 }
 
 .pestania:hover {
     background-color: #016ed3;
-    box-shadow: rgb(0, 0, 0) 5px 10px 10px;
+    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     padding-bottom: 10px;
     color: #790303
 }
 
+.botonera {
+    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    background-color: #3399f8;
+    border: 1px solid #ffa959;    
+    margin: 2%;
+    color: #ffffff;
+    transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
+    cursor: pointer;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.github {
+    background-image: url('https://skillicons.dev/icons?i=github');
+}
+
+.twitter {
+    background-image: url('https://skillicons.dev/icons?i=twitter');
+}
+
+.discord {
+    background-image: url('https://skillicons.dev/icons?i=discord');
+}
+
+.botonera:hover {
+    background-color: #016ed3;
+    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    padding-bottom: 10px;
+    color: #ffa959
+}
 
 footer {
     background: #016ed3;
