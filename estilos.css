@@ -1,11 +1,22 @@
+/* 
+#013c72 - azul oscuro titulo
+#004c94 - azul oscuro fondo
+#016ed3 - azul medio
+#3399f8 - azul claro
+#ffa959 - naranja
+*/
+
 body {
-    background: #004c94;
+    background: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
-    color: #013c72;    
-    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #3399f8;
+    padding: 1px;
     text-align: center;
 }
 
@@ -15,21 +26,33 @@ li {
 
 .logos {
     margin-left: 0.8em;
-    margin-bottom: 0.8em;;
+    margin-bottom: 0.8em;
+    box-shadow: 0px 0px 10px#016ed3;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.logorom {
+    margin-left: 0.8em;
+    margin-bottom: 0.8em;
+    box-shadow: 0px 0px 5px#ffa959;
+    border-radius: 100px 100px 100px 100px;
 }
 
 p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     text-align: left;
-    color: #000000;
+    color: #3399f8;
     padding: 2%;
 }
 
 header {
-    background: #3399f8;
-    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    background: #131313;
+    box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     text-align: center;
-    border: 1px solid #ffa959;
+    border: 1px solid #016ed3;
     align-items: center;
 }
 
@@ -41,19 +64,19 @@ header {
 }
 
 .asignaturas {
-    background: #016ed3;
-    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    background: #131313;
+    box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     margin-top: 2%;
-    border: 1px solid #ffa959;
+    border: 1px solid #016ed3;
     align-items: flex-start;
 }
 
 .pestania {
-    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
-    background-color: #3399f8;
-    border: 1px solid #ffa959;    
+    background-color: #272727;
+    border: 1px solid #ffa959;
     margin: 2%;
     color: #ffffff;
     transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
@@ -61,21 +84,14 @@ header {
     box-sizing: content-box;
 }
 
-.pestania:hover {
-    background-color: #016ed3;
-    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
-    padding-bottom: 10px;
-    color: #790303
-}
-
 .botonera {
     box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     background-color: #3399f8;
-    border: 1px solid #ffa959;    
+    border: 1px solid #ffa959;
     margin: 2%;
     color: #ffffff;
-    transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
+    transition: background-color 0.2s linear, padding 0.2s linear, box-shadow 0.3s, border-radius 0.2s;
     cursor: pointer;
     box-sizing: content-box;
     display: inline-block;
@@ -86,6 +102,13 @@ header {
     background-position: center;
     cursor: pointer;
     outline: none;
+}
+
+.botonera:hover {
+    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+    color: #ffa959
 }
 
 .github {
@@ -100,17 +123,11 @@ header {
     background-image: url('https://skillicons.dev/icons?i=discord');
 }
 
-.botonera:hover {
-    background-color: #016ed3;
-    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
-    border-radius: 5px 5px 5px 5px;
-    padding-bottom: 10px;
-    color: #ffa959
-}
+
 
 footer {
-    background: #016ed3;
-    box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+    background: #131313;
+    box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     font: 16px verdan, sans-serif;
     margin-top: 2%;
