@@ -16,7 +16,7 @@ li {
 p {
     text-align: left;
     color: #000000;
-    padding: 15px;
+    padding: 2%;
 }
 
 p:hover {
@@ -29,14 +29,12 @@ header {
     box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     text-align: center;
-    box-sizing: content-box;
     border: 1px solid #ffa959;
     align-items: center;
 }
 
 .descripcion {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 2%;
     font-size: 16px;
     text-align: left;
     display: inline-block;
@@ -46,12 +44,8 @@ header {
     background: #016ed3;
     box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
-    margin-top: 5em;
-    box-sizing: content-box;
-    padding: 10px;
+    margin-top: 2%;
     border: 1px solid #ffa959;
-    margin-left: 20px;
-    margin-right: 20px;
     align-items: flex-start;
 }
 
@@ -60,7 +54,8 @@ header {
     box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     background-color: #3399f8;
-    border: 1px solid #ffa959;
+    border: 1px solid #ffa959;    
+    margin: 2%;
     color: #ffffff;
     transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
     cursor: pointer;
@@ -79,6 +74,8 @@ footer {
     box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     font: 16px verdan, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
     color: #ffffff;
     text-shadow: 3px 5px 10px rgb(#016ed3);
     text-align: center;
