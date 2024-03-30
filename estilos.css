@@ -44,7 +44,8 @@ p {
     font-style: normal;
     text-align: left;
     color: #3399f8;
-    padding: 2%;
+    margin-left: 0.6em;    
+    margin-right: 0.6em;
 }
 
 header {
