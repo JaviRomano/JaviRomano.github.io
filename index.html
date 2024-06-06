@@ -8,8 +8,152 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap"
-        rel="stylesheet">
+    <style>
+        /* 
+#013c72 - azul oscuro titulo
+#004c94 - azul oscuro fondo
+#016ed3 - azul medio
+#3399f8 - azul claro
+#ffa959 - naranja
+*/
+
+        body {
+            background: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color: #3399f8;
+            padding: 1px;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .logos {
+            margin-left: 0.8em;
+            margin-bottom: 0.8em;
+            box-shadow: 0px 0px 10px#016ed3;
+            border-radius: 15px 15px 15px 15px;
+        }
+
+        .logorom {
+            margin-left: 0.8em;
+            margin-bottom: 0.8em;
+            box-shadow: 0px 0px 5px#ffa959;
+            border-radius: 100px 100px 100px 100px;
+        }
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            text-align: left;
+            color: #3399f8;
+            margin-left: 0.6em;
+            margin-right: 0.6em;
+        }
+
+        header {
+            background: #131313;
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            text-align: center;
+            border: 1px solid #016ed3;
+            align-items: center;
+        }
+
+        .descripcion {
+            padding: 2%;
+            font-size: 16px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .asignaturas {
+            background: #131313;
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            margin-top: 2%;
+            border: 1px solid #016ed3;
+            align-items: flex-start;
+        }
+
+        .pestania {
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            background-color: #272727;
+            border: 1px solid #ffa959;
+            margin: 2%;
+            color: #ffffff;
+            transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
+            cursor: pointer;
+            box-sizing: content-box;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .botonera {
+            box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            background-color: #3399f8;
+            border: 1px solid #ffa959;
+            margin: 2%;
+            color: #ffffff;
+            transition: background-color 0.2s linear, padding 0.2s linear, box-shadow 0.3s, border-radius 0.2s;
+            cursor: pointer;
+            box-sizing: content-box;
+            display: inline-block;
+            width: 100px;
+            height: 80px;
+            margin: 5px;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .botonera:hover {
+            box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+            border-radius: 15px 15px 15px 15px;
+            padding: 20px;
+            color: #ffa959
+        }
+
+        .github {
+            background-image: url('https://skillicons.dev/icons?i=github');
+        }
+
+        .twitter {
+            background-image: url('https://skillicons.dev/icons?i=twitter');
+        }
+
+        .discord {
+            background-image: url('https://skillicons.dev/icons?i=discord');
+        }
+
+
+
+        footer {
+            background: #131313;
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            font: 16px verdan, sans-serif;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            color: #ffffff;
+            text-shadow: 3px 5px 10px rgb(#016ed3);
+            text-align: center;
+            border: 1px solid #ffa959;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +183,8 @@
                 de los distintos métodos de los que dispone Java, programación orientada a objetos. <br><br>
                 Competencias adquiridas:
             </p>
-            <img class="logos" src="https://skillicons.dev/icons?i=java" height="50" />
+            <img class="logos" src="https://skillicons.dev/icons?i=java" height="50" title="Java"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=php" height="50" title="php"/>
         </div>
         <div class="pestania">
             <h3>Base de datos</h3>
@@ -47,36 +192,28 @@
                 inserción de sus registros, consulta y edición de BBDD mediante <b>MySql Workbench</b>.<br><br>
                 Competencias adquiridas:
             </p>
-            <img class="logos" src="https://skillicons.dev/icons?i=mysql" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=php" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=sublime" height="50" />
+            <img class="logos" src="https://skillicons.dev/icons?i=mysql" height="50" title="MySql"/>
         </div>
         <div class="pestania">
-            <h3>Sistemas informáticos</h3>
+            <h3>Sistemas operativos</h3>
             <p>Nociones de hardware, herramientas de los distintos sistemas operativos y sus
                 distintas disposiciones, aprender a trabajar mediante lineas de comandos.<br><br>
                 Competencias adquiridas:
             </p>
-            <img class="logos" src="https://skillicons.dev/icons?i=linux" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=windows" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=ubuntu" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=powershell" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=kali" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=mint" height="50" />
+            <img class="logos" src="https://skillicons.dev/icons?i=linux" height="50" title="Linux"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=windows" height="50" title="Windows"/>           
         </div>
         <div class="pestania">
             <h3>Entornos de desarrollo</h3>
             <p>Conocimientos sobre los procesos de desarrollo y el IDE donde creamos el codigo fuente desde la
-                concepción del codigo, el funcionamiento interno de los IDE y utilidades que ofrecen, así como el aprendizaje de distintas buenas prácticas a aplicar durante el
+                concepción del codigo, el funcionamiento interno de los IDE y utilidades que ofrecen, así como el
+                aprendizaje de distintas buenas prácticas a aplicar durante el
                 proceso de programación.<br><br>
                 Competencias adquiridas:
-            </p>            
-            <img class="logos" src="https://skillicons.dev/icons?i=vscode" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=eclipse" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=markdown" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=notion" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=git" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=github" height="50" />
+            </p>
+            <img class="logos" src="https://skillicons.dev/icons?i=vscode" height="50" title="Visual Studio Code"/>                        
+            <img class="logos" src="https://skillicons.dev/icons?i=sublime" height="50" title="Sublime Text"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=eclipse" height="50" title="Eclipse"/>            
         </div>
         <div class="pestania">
             <h3>Lenguaje de marcas</h3>
@@ -84,10 +221,11 @@
                 desarrollo de un dominio web.<br><br>
                 Competencias adquiridas:
             </p>
-            <img class="logos" src="https://skillicons.dev/icons?i=html" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=css" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=javascript" height="50" />
-            <img class="logos" src="https://skillicons.dev/icons?i=figma" height="50" />
+            <img class="logos" src="https://skillicons.dev/icons?i=html" height="50" title="HTML5"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=css" height="50" title="CSS3"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=javascript" height="50" title="JavaScript"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=figma" height="50" title="Figma"/>
+            <img class="logos" src="https://skillicons.dev/icons?i=markdown" height="50" title="MarkDown"/>
         </div>
     </div>
 
@@ -95,9 +233,9 @@
         <div class="rrss">
             <h2>Redes Sociales</h2>
             <div>
-                <a class="botonera github" href="https://github.com/JaviRomano"></a>
-                <a class="botonera twitter" href="https://twitter.com/Javi_Romano"></a>
-                <a class="botonera discord" href="https://discordapp.com/users/439965063835680798" target="_blank"></a>
+                <a class="botonera github" href="https://github.com/JaviRomano" title="GitHub"></a>
+                <a class="botonera twitter" href="https://twitter.com/Javi_Romano" title="Twitter"></a>
+                <a class="botonera discord" href="https://discordapp.com/users/439965063835680798" target="_blank" title="Discord"></a>
             </div>
         </div>
     </footer>
