@@ -1,1 +1,144 @@
+        /* 
+#013c72 - azul oscuro titulo
+#004c94 - azul oscuro fondo
+#016ed3 - azul medio
+#3399f8 - azul claro
+#ffa959 - naranja
+*/
 
+        body {
+            background: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color: #3399f8;
+            padding: 1px;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .logos {
+            margin-left: 0.8em;
+            margin-bottom: 0.8em;
+            box-shadow: 0px 0px 10px#016ed3;
+            border-radius: 15px 15px 15px 15px;
+        }
+
+        .logorom {
+            margin-left: 0.8em;
+            margin-bottom: 0.8em;
+            box-shadow: 0px 0px 5px#ffa959;
+            border-radius: 100px 100px 100px 100px;
+        }
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            text-align: left;
+            color: #3399f8;
+            margin-left: 0.6em;
+            margin-right: 0.6em;
+        }
+
+        header {
+            background: #131313;
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            text-align: center;
+            border: 1px solid #016ed3;
+            align-items: center;
+        }
+
+        .descripcion {
+            padding: 2%;
+            font-size: 16px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .asignaturas {
+            background: #131313;
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            margin-top: 2%;
+            border: 1px solid #016ed3;
+            align-items: flex-start;
+        }
+
+        .pestania {
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            background-color: #272727;
+            border: 1px solid #ffa959;
+            margin: 2%;
+            color: #ffffff;
+            transition: background-color 0.2s linear, padding-bottom 0.2s linear, box-shadow 0.3s;
+            cursor: pointer;
+            box-sizing: content-box;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        .botonera {
+            box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            background-color: #3399f8;
+            border: 1px solid #ffa959;
+            margin: 2%;
+            color: #ffffff;
+            transition: background-color 0.2s linear, padding 0.2s linear, box-shadow 0.3s, border-radius 0.2s;
+            cursor: pointer;
+            box-sizing: content-box;
+            display: inline-block;
+            width: 100px;
+            height: 80px;
+            margin: 5px;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .botonera:hover {
+            box-shadow: 1px 1px 5px inset rgb(255, 255, 255), -1px -1px 5px inset rgb(0, 0, 0);
+            border-radius: 15px 15px 15px 15px;
+            padding: 20px;
+            color: #ffa959
+        }
+
+        .github {
+            background-image: url('https://skillicons.dev/icons?i=github');
+        }
+
+        .twitter {
+            background-image: url('https://skillicons.dev/icons?i=twitter');
+        }
+
+        .discord {
+            background-image: url('https://skillicons.dev/icons?i=discord');
+        }
+
+
+
+        footer {
+            background: #131313;
+            box-shadow: 1px 1px 2px inset rgb(255, 255, 255), -1px -1px 2px inset rgb(0, 0, 0);
+            border-radius: 5px 5px 5px 5px;
+            font: 16px verdan, sans-serif;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            color: #ffffff;
+            text-shadow: 3px 5px 10px rgb(#016ed3);
+            text-align: center;
+            border: 1px solid #ffa959;
+        }
